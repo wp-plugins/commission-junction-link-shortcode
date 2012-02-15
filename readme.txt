@@ -5,7 +5,7 @@ Donate link: http://wikiduh.com/donate
 Tags: cj.com,commission junction,commission,junction,link,shortcode,short code,monetize,image,tracking
 Requires at least: 2.8
 Tested up to: 3.3.1
-Stable tag: 1.0
+Stable tag: 1.0.1
 
 Customize and insert Commission Junction links using a simple shortcode.
 
@@ -35,6 +35,9 @@ The relevant urls are contained within the HTML code of any of the Commission Ju
 1. Where to find the url and img arguments for your Commission Junction link.
 
 == Changelog ==
+
+= 1.0.1 =
+* Fixed help page link using generic function (which may prevent it from being activated).
 
 = 1.0 =
 * First released version. 

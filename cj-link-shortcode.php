@@ -3,7 +3,7 @@
 Plugin Name: Commission Junction Link Shortcode
 Plugin URI: http://wikiduh.com/plugins/cj-link-shortcode
 Description: Customize and insert Commission Junction links using a simple shortcode.
-Version: 1.0
+Version: 1.0.1
 Author: bitacre
 Author URI: http://wikiduh.com
 
@@ -14,7 +14,7 @@ License: GPLv2
 
 */
 
-function set_plugin_meta($links, $file) { // define additional plugin meta links
+function set_plugin_meta_cj_link_shortcode($links, $file) { // define additional plugin meta links
 	$plugin = plugin_basename(__FILE__); // '/cj-link-shortcode/cj-link-shortcode.php' by default
     if ($file == $plugin) { // if called for THIS plugin then:
 		$newlinks=array('<a href="http://wikiduh.com/plugins/cj-link-shortcode/help">Help Page</a>',); // array of links to add
@@ -50,5 +50,6 @@ function cj_link( $atts, $content=NULL ) {
 	return $link_code;
 }
 
+add_filter( 'plugin_row_meta', 'set_plugin_meta_cj_link_shortcode', 10, 2 ); // add meta links to plugin's section on 'plugins' page (10=priority, 2=num of args)
 add_shortcode( 'cj', 'cj_link' );
 ?>
