@@ -4,7 +4,7 @@ Contributors: bitacre
 Donate link: http://wikiduh.com/donate
 Tags: cj.com,commission junction,commission,junction,link,shortcode,short code,monetize,image,tracking
 Requires at least: 2.8
-Tested up to: 3.3.1
+Tested up to: 3.3.2
 Stable tag: 1.0.1
 
 Customize and insert Commission Junction links using a simple shortcode.
