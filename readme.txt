@@ -21,6 +21,7 @@ This plugin allows you to customize and insert text links from the Commission Ju
 == Frequently Asked Questions ==
 = How do I use the shortcode? =
 Simply type `[cj url="link-url" img="tracking-img-url"]Example link[/cj]` into your post. Replace `link-url`, `tracking-img-url`, and `Example link` with your Commission Junction link's information.
+
 = Where do I find my link's information? =
 The relevant urls are contained within the HTML code of any of the Commission Junction links you are instructed to copy and paste. See the screenshot or visit this plugin's [help page](http://wikiduh.com/plugins/cj-link-shortcode/help) for more detailed instructions on finding your link information.
 
@@ -30,6 +31,7 @@ The relevant urls are contained within the HTML code of any of the Commission Ju
 == Changelog ==
 = 1.0.1 =
 * Fixed help page link using generic function (which may prevent it from being activated).
+
 = 1.0 =
 * First released version. 
 * There may still be bugs, but I can't find any. 
