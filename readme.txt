@@ -1,5 +1,5 @@
 === Commission Junction Link Shortcode ===
-Plugin URI: http://bitacre.com/plugins/commission-junction-link-shortcode/
+Plugin URI: http://bitacre.com/plugins/commission-junction-link-shortcode
 Contributors: bitacre
 Donate link: http://bitacre.com/donate
 Tags: cj.com,commission junction,commission,junction,link,shortcode,short code,monetize,image,tracking
