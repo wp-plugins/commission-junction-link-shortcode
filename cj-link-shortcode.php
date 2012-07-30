@@ -1,16 +1,16 @@
 <?php
 /*
 Plugin Name: Commission Junction Link Shortcode
-Plugin URI: http://wikiduh.com/plugins/cj-link-shortcode
+Plugin URI: http://bitacre.com/plugins/commission-junction-link-shortcode
 Description: Customize and insert Commission Junction links using a simple shortcode.
 Version: 1.0.1
 Author: bitacre
-Author URI: http://wikiduh.com
+Author URI: http://bitacre.com
 
 Shortcode Format: cj url="link-url" img="tracking-img-url"]link text[/cj]
 	
 License: GPLv2 
-	Copyright 2011 bitacre (plugins@wikiduh.com)
+	Copyright 2012 Shinra Web Holdings (http://shinraholdings.com)
 
 */
 
