@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Commission Junction Link Shortcode
-Plugin URI: http://bitacre.com/plugins/commission-junction-link-shortcode
+Plugin URI: http://shinraholdings.com/plugins/commission-junction-link-shortcode
 Description: Customize and insert Commission Junction links using a simple shortcode.
 Version: 1.0.1
 Author: bitacre
-Author URI: http://bitacre.com
+Author URI: http://shinraholdings.com
 
 Shortcode Format: cj url="link-url" img="tracking-img-url"]link text[/cj]
 	
@@ -17,7 +17,7 @@ License: GPLv2
 function set_plugin_meta_cj_link_shortcode($links, $file) { // define additional plugin meta links
 	$plugin = plugin_basename(__FILE__); // '/cj-link-shortcode/cj-link-shortcode.php' by default
     if ($file == $plugin) { // if called for THIS plugin then:
-		$newlinks=array('<a href="http://wikiduh.com/plugins/cj-link-shortcode/help">Help Page</a>',); // array of links to add
+		$newlinks=array('<a href="http://shinraholdings.com/plugins/cj-link-shortcode/help">Help Page</a>',); // array of links to add
 		return array_merge( $links, $newlinks ); // merge new links into existing $links
 	}
 return $links; // return the $links (merged or otherwise)
