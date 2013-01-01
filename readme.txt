@@ -4,7 +4,7 @@ Contributors: bitacre
 Donate link: http://shinraholdings.com/donate
 Tags: cj.com,commission junction,commission,junction,link,shortcode,short code,monetize,image,tracking
 Requires at least: 2.8
-Tested up to: 3.4.2
+Tested up to: 3.5
 Stable tag: 1.0.1
 
 Customize and insert Commission Junction links using a simple shortcode.
